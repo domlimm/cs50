@@ -13,6 +13,7 @@ def main():
 
     build(size, size)
 
+
 def build(size, counter):
     spaces = size - 1
 
@@ -24,5 +25,6 @@ def build(size, counter):
         print('#' * (counter - spaces), end='\n')
 
         return build(size - 1, counter)
+
 
 main()
