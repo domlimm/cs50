@@ -20,7 +20,7 @@ def build(size, counter):
         return 1
     else:
         print(' ' * spaces, end='')
-        print('#' * (counter - spaces), end=' ')
+        print('#' * (counter - spaces), end='  ')
         print('#' * (counter - spaces), end='\n')
 
         return build(size - 1, counter)
