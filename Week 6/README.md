@@ -8,3 +8,5 @@ Source code for [Mario more](https://cs50.harvard.edu/x/2020/psets/6/mario/more/
 Source code for [Credit](https://cs50.harvard.edu/x/2020/psets/6/credit/)
 ## readability.py
 Source code for [Readability](https://cs50.harvard.edu/x/2020/psets/6/readability/)
+## dna.py
+Source code for [DNA](https://cs50.harvard.edu/x/2020/psets/6/dna/)
