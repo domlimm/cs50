@@ -1,0 +1,35 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #daf0e0!important;
+    font-family: "Comic Sans MS", "Comic Sans";
+}
+
+#welcome
+{
+    color: #3386FF;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 25px;
+}
+
+a
+{
+    text-align: center;
+}
+
+.others
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+p
+{
+    font-weight: bold;
+}
