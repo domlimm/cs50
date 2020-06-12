@@ -1,8 +1,13 @@
-# Problem Set 8 (Specialisation Track)
+# Problem Set 8 (Specialisation Tracks)
 Source codes for Problem Set 8
 ## Web
 ### homepage
 Source code for [homepage](https://cs50.harvard.edu/x/2020/tracks/web/homepage/)
+
+![Index](https://github.com/domsterthebot/cs50/blob/master/Week%208/Web/homepage/screenshots/index.jpg "Index")
+![Index Highlight](https://github.com/domsterthebot/cs50/blob/master/Week%208/Web/homepage/screenshots/index%202.jpg "Index Highlight")
+![Info](https://github.com/domsterthebot/cs50/blob/master/Week%208/Web/homepage/screenshots/info.jpg "Info")
+
 ### finance
 Source code for [finance](https://cs50.harvard.edu/x/2020/tracks/web/finance/)
 
