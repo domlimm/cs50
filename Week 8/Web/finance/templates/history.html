@@ -1,0 +1,34 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Shares</th>
+                <th>Total Price</th>
+                <th>Action</th>
+                <th>Transacted</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for row in history %}
+                <tr class="{{'bg-success' if row["quantity"] > 0}} {{'bg-danger' if row["quantity"] < 0}}">
+                    <td>{{ row["symbol"] }}</td>
+                    <td>{{ row["quantity"] }}</td>
+                    <td>{{ cvtUsd(row["price"]) }}</td>
+                    {% if row["quantity"] < 0 %}
+                        <td>SOLD</td>
+                    {% else %}
+                        <td>BOUGHT</td>
+                    {% endif %}
+                    <td>{{ row["tsAdded"] }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}
