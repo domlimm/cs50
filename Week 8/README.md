@@ -20,6 +20,9 @@ Source code for [finance](https://cs50.harvard.edu/x/2020/tracks/web/finance/)
 ![History](https://github.com/domsterthebot/cs50/blob/master/Week%208/Web/finance/screenshots/history.jpg "History")
 
 ## Games
-Source code for [WIP](#)
+Source code for [Pong](https://cs50.harvard.edu/x/2020/tracks/games/pong/)
+
+![Pong](https://github.com/domsterthebot/cs50/blob/master/Week%208/Games/pong/pong.jpg "Pong")
+
 ## Android
 Source code for [WIP](#)
