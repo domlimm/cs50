@@ -1,0 +1,53 @@
+body {
+  width: 500px;
+  height: 500px;
+  padding: 20px;
+}
+
+#headerContainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+h4 {
+  flex: 1;
+}
+
+#tabsContainer {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.tabCard {
+  margin: 10px 0 10px 0;
+  height: 64px;
+  background-color: #ccc;
+  box-shadow: 0px -5px 10px rgba(128, 128, 128, 0.45);
+}
+
+.tabCard:hover {
+  background-color: lightgreen;
+  cursor: pointer;
+}
+
+.tabCardBody {
+  display: flex;
+  align-items: center;
+}
+
+.imgSpan {
+  margin-right: 10px;
+  background-color: lightgrey;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.tabCardTitle {
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+}

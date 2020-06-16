@@ -1,0 +1,27 @@
+{
+  "name": "CS50 - TabsMore",
+  "version": "1.0",
+  "description": "First Chrome Extension! As CS majors, our extensive unending research usually results in too many tabs being opened in one window. This extension allows for convenient navigation between those tabs.",
+  "permissions": ["activeTab", "tabs", "background", "declarativeContent"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/get_started16.png",
+      "32": "images/get_started32.png",
+      "48": "images/get_started48.png",
+      "128": "images/get_started128.png"
+    }
+  },
+  "options_page": "options.html",
+  "icons": {
+    "16": "images/get_started16.png",
+    "32": "images/get_started32.png",
+    "48": "images/get_started48.png",
+    "128": "images/get_started128.png"
+  },
+  "manifest_version": 2
+}
